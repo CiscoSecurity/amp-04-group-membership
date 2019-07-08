@@ -22,7 +22,8 @@ The authentication parameters are set in the ```api.cfg``` file in the ```./conf
 - amp_client_id 
 - amp_client_password
 
-- Install required Python modules using ```pip install -r requirements.txt```
+Install required Python modules using:
+```pip install -r requirements.txt```
 
 ### amp_group_document.py Usage:
 ```
