@@ -12,9 +12,9 @@ It also creates a simplified version of the data for computers -- ```AMP Simp_co
 
 **amp_group_restore.py** returns computer objects in Cisco AMP for Endpoints back to their previous group as documented in ```AMP Simp_computers.json```.
 
-1- Execute ```amp_group_document.py``` to generate a listing of all your computers group memberships.
-2- A copy of the ```AMP Simp_computers.json``` file that is generated using the ```amp_group_document.py``` script will need to be copied from the ```./data``` folder to the ```./known_good``` folder.
-3- Execute ```amp_group_restore.py``` to gather the existing group that each computer is in and if that group has changed, move it back to the group listed in the ```./known_good``` folder.
+1. Execute ```amp_group_document.py``` to generate a listing of all your computers group memberships.
+2. A copy of the ```AMP Simp_computers.json``` file that is generated using the ```amp_group_document.py``` script will need to be copied from the ```./data``` folder to the ```./known_good``` folder.
+3. Execute ```amp_group_restore.py``` to gather the existing group that each computer is in and if that group has changed, move it back to the group listed in the ```./known_good``` folder.
 
 
 ### Before using you must update the following:
